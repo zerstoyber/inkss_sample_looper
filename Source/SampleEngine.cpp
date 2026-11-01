@@ -189,7 +189,7 @@ int SampleEngine::loadFile (const juce::File& file, juce::String& error)
 
         if (slotIndex < 0)
         {
-            error = "Sixteen samples are already loaded.";
+            error = "32 samples are already loaded.";
             return -1;
         }
 
@@ -1648,7 +1648,7 @@ int SampleEngine::addBuffer (juce::AudioBuffer<float> buffer, double sampleRate,
 
         if (slotIndex < 0)
         {
-            error = "Sixteen samples are already loaded.";
+            error = "32 samples are already loaded.";
             return -1;
         }
 

@@ -11,7 +11,7 @@
 class SampleEngine
 {
 public:
-    static constexpr int maxSlots = 16;
+    static constexpr int maxSlots = 32;
     static constexpr int maxVoices = 32;
 
     struct SlotInfo
